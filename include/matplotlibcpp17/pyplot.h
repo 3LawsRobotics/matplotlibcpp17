@@ -6,14 +6,15 @@
 
 #include <tuple>
 
-#include <matplotlibcpp17/axes.h>
-#include <matplotlibcpp17/common.h>
-#include <matplotlibcpp17/figure.h>
+#include <matplotlibcpp17/axes.h>  // IWYU pragma: export
+#include <matplotlibcpp17/common.h>  // IWYU pragma: export
+#include <matplotlibcpp17/figure.h>  // IWYU pragma: export
 
-#include <pybind11/embed.h>
-#include <pybind11/numpy.h>
-#include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
+#include <pybind11/embed.h>  // IWYU pragma: export
+#include <pybind11/numpy.h>  // IWYU pragma: export
+#include <pybind11/pybind11.h>  // IWYU pragma: export
+#include <pybind11/stl.h>  // IWYU pragma: export
+#include <pybind11/cast.h>  // IWYU pragma: export
 
 namespace matplotlibcpp17::pyplot {
 

@@ -4,9 +4,9 @@
  **/
 #pragma once
 
-#include <matplotlibcpp17/common.h>
+#include <matplotlibcpp17/common.h>  // IWYU pragma: export
 
-#include <pybind11/pybind11.h>
+#include <pybind11/pybind11.h>  // IWYU pragma: export
 
 /**
  * @brief A wrapper class for matplotlib.text.Text

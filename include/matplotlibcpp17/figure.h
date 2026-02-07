@@ -4,11 +4,11 @@
  **/
 #pragma once
 
-#include <matplotlibcpp17/axes.h>
-#include <matplotlibcpp17/common.h>
-#include <matplotlibcpp17/gridspec.h>
+#include <matplotlibcpp17/axes.h>  // IWYU pragma: export
+#include <matplotlibcpp17/common.h>  // IWYU pragma: export
+#include <matplotlibcpp17/gridspec.h>  // IWYU pragma: export
 
-#include <pybind11/pybind11.h>
+#include <pybind11/pybind11.h>  // IWYU pragma: export
 
 namespace matplotlibcpp17::figure {
 

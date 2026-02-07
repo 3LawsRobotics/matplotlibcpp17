@@ -8,8 +8,8 @@
 
 #define DECL_STRUCT_ATTR __attribute__((visibility("hidden")))
 
-#include <iostream>
-#include <utility>
+#include <iostream>  // IWYU pragma: export
+#include <utility>  // IWYU pragma: export
 
 #define INFO_MSG(msg)                                                          \
   do {                                                                         \
@@ -29,7 +29,7 @@
     std::cerr << #msg << std::endl;                                            \
   } while (0)
 
-#include <pybind11/pybind11.h>
+#include <pybind11/pybind11.h>  // IWYU pragma: export
 
 namespace matplotlibcpp17 {
 

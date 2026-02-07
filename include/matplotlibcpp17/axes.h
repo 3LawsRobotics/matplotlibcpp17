@@ -4,17 +4,17 @@
  **/
 #pragma once
 
-#include <tuple>
-#include <vector>
+#include <tuple>  // IWYU pragma: export
+#include <vector>  // IWYU pragma: export
 
-#include <matplotlibcpp17/collections.h>
-#include <matplotlibcpp17/common.h>
-#include <matplotlibcpp17/container.h>
-#include <matplotlibcpp17/legend.h>
-#include <matplotlibcpp17/quiver.h>
-#include <matplotlibcpp17/text.h>
+#include <matplotlibcpp17/collections.h>  // IWYU pragma: export
+#include <matplotlibcpp17/common.h>  // IWYU pragma: export
+#include <matplotlibcpp17/container.h>  // IWYU pragma: export
+#include <matplotlibcpp17/legend.h>  // IWYU pragma: export
+#include <matplotlibcpp17/quiver.h>  // IWYU pragma: export
+#include <matplotlibcpp17/text.h>  // IWYU pragma: export
 
-#include <pybind11/pybind11.h>
+#include <pybind11/pybind11.h>  // IWYU pragma: export
 
 namespace matplotlibcpp17::axes {
 
